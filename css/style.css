@@ -346,6 +346,11 @@ body {
 #subtitle-wrap {
   margin-top: 25px;
 }
+#busuanzi_container_site_pv {
+  float: right;
+  margin-right: -15px;
+  padding: 100px 40px;
+}
 #main-nav {
   float: left;
   margin-left: -15px;
