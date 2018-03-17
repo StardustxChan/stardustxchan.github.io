@@ -128,9 +128,9 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 920px;
+  max-width: 970px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 25px;
 }
 .outer:before,
 .outer:after {
@@ -143,8 +143,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.77777777777777%;
-  margin: 0 1.111111111111111%;
+  width: 97.35449735449735%;
+  margin: 0 1.322751322751323%;
 }
 .left,
 .alignleft {
@@ -272,7 +272,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 500px;
+  height: 600px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -340,8 +340,8 @@ body {
 }
 #subtitle {
   font-size: 25px;
-  line-height: 25px;
-  letter-spacing: 1px;
+  line-height: 65px;
+  letter-spacing: 2px;
 }
 #subtitle-wrap {
   margin-top: 25px;
@@ -436,10 +436,10 @@ body {
   left: 0;
   right: 0;
   background: #fff;
-  padding: 5px 15px;
+  padding: 5px 40px;
   border-radius: 15px;
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
 }
 .search-form-input {
   border: none;
@@ -499,7 +499,7 @@ body {
   margin: 0 12px 1em;
 }
 .article-header {
-  padding: 20px 20px 0;
+  padding: 40px 40px 0;
 }
 .article-title {
   text-decoration: none;
@@ -517,7 +517,7 @@ a.article-title:hover {
 }
 .article-entry {
   color: #555;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 .article-entry:before,
 .article-entry:after {
@@ -659,7 +659,7 @@ a.article-title:hover {
   line-height: 1.8em;
   border-top: 1px solid #ddd;
   padding-top: 1.8em;
-  margin: 0 20px 20px;
+  margin: 0 40px 40px;
 }
 .article-footer:before,
 .article-footer:after {
@@ -909,7 +909,7 @@ a.article-title:hover {
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
-  padding: 20px;
+  padding: 40px;
   border: 1px solid #ddd;
   border-radius: 3px;
   margin: 50px 0;
@@ -1041,7 +1041,7 @@ a.article-title:hover {
 #footer {
   background: #262a30;
   padding: 50px 0;
-  border-top: 1px solid #ddd;
+  border-top: 2px solid #ddd;
   color: #999;
 }
 #footer a {
@@ -1058,8 +1058,8 @@ a.article-title:hover {
 .article-entry pre,
 .article-entry .highlight {
   background: #2d2d2d;
-  margin: 0 -20px;
-  padding: 15px 20px;
+  margin: 0 -40px;
+  padding: 15px 40px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
@@ -1127,12 +1127,12 @@ a.article-title:hover {
   background: #515151;
 }
 .article-entry .gist {
-  margin: 0 -20px;
+  margin: 0 -40px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
   background: #2d2d2d;
-  padding: 15px 20px 15px 0;
+  padding: 15px 40px 15px 0;
 }
 .article-entry .gist .gist-file {
   border: none;
@@ -1163,7 +1163,7 @@ a.article-title:hover {
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .article-entry .gist .gist-file .gist-meta a {
   color: #258fb8;
