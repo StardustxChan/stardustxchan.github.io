@@ -128,9 +128,9 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 970px;
+  max-width: 995px;
   margin: 0 auto;
-  padding: 0 25px;
+  padding: 0 8.333333333333334px;
 }
 .outer:before,
 .outer:after {
@@ -272,7 +272,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 600px;
+  height: 730px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
