@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+
+  
+  <title>基于PCIe的NVMe 协议固态硬盘的选择和使用 | Sx | 将进酒</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="本文于 2017 年 5月 3 日 作为公选课作业用. 摘要: 　　本论文通过资料查阅、具体实验的研究方法对市面上火热的 NVMe 固态硬盘作了初步了解. 通过选购和使用学习该类型固态硬盘的使用方法和特性, 通过 AS SSD 等专业软件对该类型固态硬盘做了简单的性能测试, 性能已经足够高. 以及探究了在不同的条件和具体应用场景之下, 在 NVMe 固态硬盘上安装系统的注意点和方法.最后得出了">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基于PCIe的NVMe 协议固态硬盘的选择和使用">
+<meta property="og:url" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/index.html">
+<meta property="og:site_name" content="Sx | 将进酒">
+<meta property="og:description" content="本文于 2017 年 5月 3 日 作为公选课作业用. 摘要: 　　本论文通过资料查阅、具体实验的研究方法对市面上火热的 NVMe 固态硬盘作了初步了解. 通过选购和使用学习该类型固态硬盘的使用方法和特性, 通过 AS SSD 等专业软件对该类型固态硬盘做了简单的性能测试, 性能已经足够高. 以及探究了在不同的条件和具体应用场景之下, 在 NVMe 固态硬盘上安装系统的注意点和方法.最后得出了">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/D90D33BE-935C-478F-8CE2-07897EE14FB3-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/8E393A5E-AAAA-462A-9CB4-1EC8455F12C0-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/C17D3FEF-B2A8-47B1-9AFF-03F564AAC4A4-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/EA6FCD94-A7E9-4A11-A851-B151531355A0-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/E91C72E3-2209-4DCB-A707-20F38B1E3361-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/7E9E017B-FC9B-4D03-B00F-DE0284B821D7-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/D90D33BE-935C-478F-8CE2-07897EE14FB3-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/FBB4FEDA-126D-4670-817E-BE07BE550356-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/C6975884-3E2D-40CB-AAC0-E5DB45454A2B-squashed.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/0D3E6363-30A3-4429-B683-4D00E503F1CF-squashed.jpg">
+<meta property="og:updated_time" content="2018-03-18T07:00:54.241Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="基于PCIe的NVMe 协议固态硬盘的选择和使用">
+<meta name="twitter:description" content="本文于 2017 年 5月 3 日 作为公选课作业用. 摘要: 　　本论文通过资料查阅、具体实验的研究方法对市面上火热的 NVMe 固态硬盘作了初步了解. 通过选购和使用学习该类型固态硬盘的使用方法和特性, 通过 AS SSD 等专业软件对该类型固态硬盘做了简单的性能测试, 性能已经足够高. 以及探究了在不同的条件和具体应用场景之下, 在 NVMe 固态硬盘上安装系统的注意点和方法.最后得出了">
+<meta name="twitter:image" content="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/D90D33BE-935C-478F-8CE2-07897EE14FB3-squashed.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Sx | 将进酒" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Sx | 将进酒</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">但愿长醉不复醒</a>
+        </h2>
+      
+      <span id="busuanzi_container_site_uv" style="color:#FFF">
+          总访问 <span id="busuanzi_value_site_uv"></span> 人, 感谢到来
+        </span>
+    </div>
+    <div id="header-inner" class="inner">
+      
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-基于PCIe的NVMe-协议固态硬盘的选择和使用" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/" class="article-date">
+  <time datetime="2018-03-18T02:29:51.000Z" itemprop="datePublished">2018-03-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      基于PCIe的NVMe 协议固态硬盘的选择和使用
+    </h1>
+  
+
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+
+      
+        <p>  本文于 2017 年 5月 3 日 作为公选课作业用.</p>
+<p>摘要: 　　本论文通过资料查阅、具体实验的研究方法对市面上火热的 NVMe 固态硬盘作了初步了解. 通过选购和使用学习该类型固态硬盘的使用方法和特性, 通过 AS SSD 等专业软件对该类型固态硬盘做了简单的性能测试, 性能已经足够高. 以及探究了在不同的条件和具体应用场景之下, 在 NVMe 固态硬盘上安装系统的注意点和方法.最后得出了结论 “未来 NVMe 固态硬盘一定会成为主流, NVMe 固态硬盘的性能已完全满足一半消费者, 但是目前在传统 SATA 和 新型 NVMe 交替的时期, 消费者在选购和使用上仍有一定门槛. 未来硬盘形态必然根据需求不同而呈现百花齐放的姿态.” </p>
+ <img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/D90D33BE-935C-478F-8CE2-07897EE14FB3-squashed.jpg" title="[]">
+<a id="more"></a>
+<p>关键词: 固态硬盘、 NVMe、硬盘性能、安装、 使用</p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><pre><code>一、NVMe 简介
+        1. NVMe是什么？
+        2. NVMe的优势
+
+二、硬盘产品种类
+        1. PCIe 接口
+        2. M.2 接口
+
+三、配合主板和带宽
+        1. 主板支持
+            1. 台式机
+            2. 笔记本
+        2. BIOS
+        3. 带宽
+
+四、性能
+        1. 速度
+        2. 寿命
+        3. 温度
+
+五、系统安装
+        1. Windows10
+        2. Windows7
+        3. macOS
+
+六、总结
+</code></pre><h2 id="一、NVMe-简介"><a href="#一、NVMe-简介" class="headerlink" title="一、NVMe 简介"></a>一、NVMe 简介</h2><h3 id="一-、NVMe是什么？"><a href="#一-、NVMe是什么？" class="headerlink" title="(一)、NVMe是什么？"></a>(一)、NVMe是什么？</h3><p>　　2011年时，NVMe规范正式出炉，NVMe全称Non-Volatile Memory Express，非易失性存储器标准，是使用PCI-E通道的SSD一种规范这是专门针对NVND闪存和下一代存储设备所提出的规范。<br>　　NVME是硬盘新的传输标准，是取代现在的AHCI的新型传输协议. [1]</p>
+<h3 id="二-、NVMe的优势："><a href="#二-、NVMe的优势：" class="headerlink" title="(二)、NVMe的优势："></a>(二)、NVMe的优势：</h3><p>　　1、更低的延时：<br>　　NVMe精简了调用方式，执行命令时不需要读取寄存器；而AHCI每条命令则需要读取4次寄存器，一共会消耗8000次CPU循环，从而造成2.5μs的延迟。　　<br>　　2、更高的传输性能<br>　　NVMe的另一个重点则是提高SSD的IOPS（每秒读写次数）性能。而NVMe标准下，最大的队列深度可达64000。此外，NVMe的队列数量也从AHCI的1，提高了64000。　　<br>    3、更低的功耗控制。<br>      NVMe加入了自动功耗状态切换和动态能耗管理功能，设备从能耗状态0闲置50ms后可以迅速切换到能耗状态1，在500ms闲置后又会进入能耗更低的状态2。相比起主流的SATA接口SSD拥有较大优势，这一点对增加笔记本电脑等移动设备的续航尤其有帮助。 [1]</p>
+<h2 id="二、硬盘产品种类"><a href="#二、硬盘产品种类" class="headerlink" title="二、硬盘产品种类"></a>二、硬盘产品种类</h2><h3 id="一-、PCIe-接口"><a href="#一-、PCIe-接口" class="headerlink" title="(一)、PCIe 接口"></a>(一)、PCIe 接口</h3><img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/8E393A5E-AAAA-462A-9CB4-1EC8455F12C0-squashed.jpg" title="[Intel 750就是NVMe SSD的代表作, 图片来自超能网]">
+<ol>
+<li>如 英特尔750 等</li>
+<li>旗舰产品, 需要旗舰主板来搭配, 一整套配置价格很高</li>
+<li><p>自带散热片, 温度控制较只有一块 PCB 的 M.2 固态硬盘而言, 会比较好.</p>
+<img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/C17D3FEF-B2A8-47B1-9AFF-03F564AAC4A4-squashed.jpg" title="[自己机器的照片咯]">
+</li>
+</ol>
+<h3 id="二-、M-2-接口"><a href="#二-、M-2-接口" class="headerlink" title="(二)、M.2 接口"></a>(二)、M.2 接口</h3><ol>
+<li>主流接口, 笔记本, 台式主板很常见</li>
+<li>产品也很多, 包含 SATA, PCIe 两种情况, 用不同的键位来区别. M Key 和 B Key.</li>
+<li>安装在不同主板上的带宽限制不同, 需要具体看主板的详情介绍或者官方文档. 确认是不是在 PCIe 3.0 x4 以上, 否则高速 NVMe 固态硬盘会限速, 低速的 NVMe 型号如 Intel600P 等产品则不会.</li>
+</ol>
+<h2 id="三、配合主板和带宽"><a href="#三、配合主板和带宽" class="headerlink" title="三、配合主板和带宽"></a>三、配合主板和带宽</h2><h3 id="一-、主板支持"><a href="#一-、主板支持" class="headerlink" title="(一)、主板支持"></a>(一)、主板支持</h3><p>支持的具体意思是, 不仅仅是能正常在 “我的电脑” 中认出 NVMe 硬盘, 当作从盘读写数据, 并且能在 NVMe 硬盘上安装系统并且启动.</p>
+<h4 id="①台式机"><a href="#①台式机" class="headerlink" title="①台式机"></a>①台式机</h4><ol>
+<li><ol>
+<li>仅支持，Ryzen\200系\100系\Z97\X99，带M.2接口的主板，在刷新 BIOS后.  SSD 走 主板南桥提供的通道, 有延迟, 但速度由 SSD自身性能 和 主板带宽大小 共同决定.</li>
+</ol>
+</li>
+<li>如果要完美支持也就是 SSD 走 CPU 的原生通道, 达到低延迟, 高速率<br>a、PCI-E插槽的固态(原生或使用转接卡都可以)，插上上直连的PCI-E(如第一槽 3.0x16 速率的插槽)<br>b、M.2插槽固态，插上直连CPU的PCI-E实现的M.2，这种接口一般在少数X99上有，比如华擎X99M极限玩家3</li>
+<li>以 SM951-NVMe 256G 这块硬盘为例. 通过将 NVMe 固态硬盘插在直连 CPU 的 3.0x16 速率显卡插槽上, 对比安装在原生 M.2 插槽, 实际测试差距微乎其微, 此结果也和网上的测试相同. </li>
+</ol>
+<h4 id="②笔记本"><a href="#②笔记本" class="headerlink" title="②笔记本"></a>②笔记本</h4><ol>
+<li>需要查看主板对 PCIe 通道的分配, 和 CPU 的通道数量</li>
+<li>Haswell 及以上自带 M.2 插槽的模具, 如神舟Z7 等刷 BIOS 后可以支持 NVMe, 但由于主板带宽是 PCIe 2.0x4, 可能不能跑到全速.</li>
+<li>一般低压CPU 的上网本反而会提供直连 CPU 的完美支持. 如 Retina MacBook Pro13.3 寸等.</li>
+<li>Skylake 六代CPU 及以上都能提供全速率支持.</li>
+</ol>
+<h3 id="二-、BIOS"><a href="#二-、BIOS" class="headerlink" title="(二)、BIOS"></a>(二)、BIOS</h3><ol>
+<li>刷 BIOS, 来启动 NVMe 硬盘上的操作系统</li>
+<li>老于 Z97 的 主板, 可以通过刷入厂商提供的带 NVMe 模块的 BIOS 来支持 NVMe. 或者自行下载 BIOS, 手动插入 NVMe 模块.</li>
+<li>如没有 NVMe 模块的 BIOS 上安装了 NVMe 硬盘. 可能只能把该盘当作储存盘使用, 不能在该盘上安装系统并且启动.</li>
+</ol>
+<h3 id="三-、带宽"><a href="#三-、带宽" class="headerlink" title="(三)、带宽"></a>(三)、带宽</h3><ol>
+<li>凡是标明 “超级 M.2 接口” 或是 “ PCIe 3.0x4, 32GB/s” 的主板, 均是支持满速率</li>
+<li>老主板通过刷 BIOS 开放的 PCIe 2.0x4 带宽也足够使用了.</li>
+<li>M.2 接口可以通过转接卡转为 PCIe 接口, 插到主板的显卡插槽使用<ol>
+<li>X系列旗舰主板, 配合 X系列 旗舰 CPU, 可以完美支持</li>
+<li>支持英伟达双显卡 SLI 的主板  (把CPU x16通道拆分为 双x8 ), 也是完美支持, 但是这种情况 显卡可能会和 SSD 抢通道. </li>
+</ol>
+</li>
+</ol>
+<h2 id="四、性能"><a href="#四、性能" class="headerlink" title="四、性能"></a>四、性能</h2><h3 id="一-、速度"><a href="#一-、速度" class="headerlink" title="(一)、速度"></a>(一)、速度</h3><ol>
+<li><p>固件驱动安装和开启高性能模式</p>
+<img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/EA6FCD94-A7E9-4A11-A851-B151531355A0-squashed.jpg" title="[windows]">
+<ol>
+<li>三星通过 SLC cache 缓存跑分和内存跑分来提升跑分成绩<br>  1.使用闪存盘中的不大于 1GB 的缓存跑分，在硬盘空间已满的情况下会掉速<ol>
+<li>Marvell最新主控88NV1140支持NVMe1.2 HBM技术，直接调用系统内存作为SSD缓存, 完全防止掉盘, SSD本身完全不需要自带缓存减少发热减少功耗降低成本缩小体积. [2]</li>
+<li>TLC 使用 SLC cache 来模拟 SLC 的方式, 是通过技术达到更好性能的优秀特性, 但是三星的 TLC 硬盘价格高至比肩其他品牌的 MLC 产品.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>SM951 - NVMe 跑分情况</p>
+<img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/E91C72E3-2209-4DCB-A707-20F38B1E3361-squashed.jpg" title="[]">
+</li>
+</ol>
+<p>在 技嘉GA-B150-D3H 主板的 超级M.2 PCIe 3.0x4 的接口上, 使用 AS SSD 的跑分情况如下.</p>
+<ol>
+<li>相较 TLC 的型号 PM951 而言, 右边的所有写入速度都有 3-4 倍的提升</li>
+<li>相较于 SATA 的 SSD, 4k 和 IOPS 都有了明显的提升<img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/7E9E017B-FC9B-4D03-B00F-DE0284B821D7-squashed.jpg" title="[]">
+</li>
+</ol>
+<h3 id="二-、寿命"><a href="#二-、寿命" class="headerlink" title="(二)、寿命"></a>(二)、寿命</h3><ol>
+<li>固态硬盘：本质上就是利用电压的击”穿绝”缘体的效应，其后电压降低，绝缘体恢复，电荷被存储。</li>
+<li>正是由于要击穿的缘故，绝缘体材料的绝缘性会不断的降低，当降低到无法长时间的保留电荷时，寿命也就到了。该模块报废。这便是擦写次数的由来。 [2]</li>
+<li>尽量选择 256G 以上的硬盘, 能极大提升 P/E 寿命.</li>
+<li>因此消费级 SSD , 在保证品牌售后和主控的情况下, 选择 MLC 颗粒的产品, 相较于 TLC ,在写入速度和寿命上仍然有绝对优势.</li>
+<li>实际上, 最影响寿命的是 主控和固件算法, 很少会出现 固态硬盘 擦写次数到达极限而报废, 即便有区域达到极限, 大厂商的固件 (如 Intel) 早已将此情况计算在内, 自行屏蔽损坏区域.</li>
+<li>综上, 对于寿命而言, 应该优先关注品牌的保修策略, 选择可靠的主控, 最后才是关注颗粒.</li>
+</ol>
+<h3 id="三-、温度"><a href="#三-、温度" class="headerlink" title="(三)、温度"></a>(三)、温度</h3><ol>
+<li>NVMe 硬盘由于散热情况不好, 以及数据的快速读写, 温度普遍很高</li>
+<li>早期固件对温度和性能的平衡不好, SM961 这款优秀的 SSD 竟然爆出了高温烧毁的新闻.</li>
+<li>我的 SM951 - NVMe 空载 50 摄氏度, 渲染或编译时能达到 70摄氏度</li>
+<li>因此, 散热片就成了商家和用户首选的散热方式<ol>
+<li>有些产品自带了散热马甲, 如 建兴T10</li>
+<li>也可以自行购买散热片, 个人经验温度降幅在 10摄氏度左右</li>
+</ol>
+</li>
+</ol>
+<h2 id="五、系统安装"><a href="#五、系统安装" class="headerlink" title="五、系统安装"></a>五、系统安装</h2><h3 id="一-、Windows10"><a href="#一-、Windows10" class="headerlink" title="(一)、Windows10"></a>(一)、Windows10</h3><p>自带了 NVMe 驱动, </p>
+<ol>
+<li>推荐使用 UEFI 引导 GPT 格式硬盘.</li>
+<li>只需将 msdn 的 iso 镜像解压到 FAT32 格式的空 U盘</li>
+<li>修改启动项安装即可, 选择硬盘界面能直接认出盘</li>
+<li>如果安装报错, 根据我自己的安装经验, 需要删除所有分区, 直接选择硬盘而不是分区, 确认安装即可</li>
+</ol>
+<h3 id="二-、Windows7"><a href="#二-、Windows7" class="headerlink" title="(二)、Windows7"></a>(二)、Windows7</h3><p>默认既没有 NVMe 驱动, 也不会自建立引导, 在新主板, 例如100系及以上主板还会缺失 USB3.0 驱动. 因此必须自己加入各种驱动, 或者下载别人预先封装好的系统. 较不推荐</p>
+<h3 id="三-、macOS"><a href="#三-、macOS" class="headerlink" title="(三)、macOS"></a>(三)、macOS</h3> <img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/D90D33BE-935C-478F-8CE2-07897EE14FB3-squashed.jpg" title="[]">
+  <img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/FBB4FEDA-126D-4670-817E-BE07BE550356-squashed.jpg" title="[]">
+<p>  NVMe 驱动补丁的迭代情况如下. </p>
+<ol>
+<li>10.11, 加入kext 作为外挂盘启动</li>
+<li>10.12 Sierra DP4 自带了 NVMe 驱动, 只需使用 config补丁</li>
+<li><p>正式版 Sierra config补丁 v2.0</p>
+<img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/C6975884-3E2D-40CB-AAC0-E5DB45454A2B-squashed.jpg" title="[]">
+<p>Retina MacBook Pro 2015 上, 苹果使用了 SM951-AHCI. 然而早在 iPhone6, 就使用 NVMe 协议了.<br>对 SSD 性能要求十分高的苹果竟然对 NVMe 驱动更新如此慢, 令人十分惊讶.</p>
+</li>
+</ol>
+<p>在 Retina MacBook Pro2016 上, 苹果首次使用了自家研发的SSD主控, 因此在默认情况下, 第三方的 SSD, 苹果的 NVMe 驱动都是不认的.<br>因此, 我们的驱动方法其实就是使用 Clover 的 config.plist 来解除驱动对型号的屏蔽.</p>
+ <img src="/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/0D3E6363-30A3-4429-B683-4D00E503F1CF-squashed.jpg" title="[]">
+<h2 id="六、总结"><a href="#六、总结" class="headerlink" title="六、总结"></a>六、总结</h2><ol>
+<li>M.2 接口已成为笔记本新模具的标配, 未来 NVMe 固态硬盘一定会成为主流.</li>
+<li>一般的 NVMe 固态硬盘 性能已完全满足一般用户. 日常使用其实和 SATA 差异不大.</li>
+<li>截至 2017 上半年, 相较 较可靠的 SATA 硬盘而言, 差价并不大. 但对于商家而言, 受限于成本, 自带的固态硬盘可能仍会采用 SATA 通道 的 M.2. </li>
+<li>选购和使用上有一定门槛, 贴吧或论坛充斥着大量问题. 但旧产品会不断退出市场, 此问题过一段时间就会解决.</li>
+<li>英特尔傲腾系列的推出, 以及 英特尔750 旗舰产品引领市场, 再是 PCIe 3.0x8 带宽的企业 SSD 的试水. 可见大企业对于硬盘的前景非常看好. 未来的硬盘在种类和形态上会更加细分需求, 面向主流的产品趋于统一, 面向专业用户的产品则根据需求不同而呈现百花齐放的状态.</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/" data-id="cjewhrosw0002kyu4mitz9fiu" class="article-share-link">Teilen</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2018/03/18/MacBook-Pro-15inch-in-2017-洗白/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Älter</strong>
+      <div class="article-nav-title">MacBook Pro 2017 15inch in Late2017, 洗白</div>
+    </a>
+  
+</nav>
+
+  
+  
+</article>
+
+
+
+
+
+
+
+</section>
+        
+      </div>
+      <footer id="footer">
+
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 Sx    
+        ,    powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({});</script></body>
+</html>

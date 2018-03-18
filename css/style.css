@@ -1256,3 +1256,10 @@ pre .javascript .function {
     color: #fff;
   }
 }
+@media screen and (max-width: 479px) {
+  #website_navbar a {
+    font-size: 13px;
+    line-height: 28px;
+    color: #000;
+  }
+}
