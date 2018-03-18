@@ -128,7 +128,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 1022.5px;
+  max-width: 970px;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -143,8 +143,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.4937343358396%;
-  margin: 0 1.2531328320802%;
+  width: 97.35449735449735%;
+  margin: 0 1.322751322751323%;
 }
 .left,
 .alignleft {
@@ -1253,13 +1253,6 @@ pre .javascript .function {
     font-weight: bold;
   }
   .mobile-nav-link:hover {
-    color: #fff;
-  }
-}
-@media screen and (max-width: 479px) {
-  #website_navbar a {
-    font-size: 13px;
-    line-height: 28px;
     color: #fff;
   }
 }
