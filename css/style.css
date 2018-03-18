@@ -128,7 +128,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 970px;
+  max-width: 1022.5px;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -143,8 +143,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.35449735449735%;
-  margin: 0 1.322751322751323%;
+  width: 97.4937343358396%;
+  margin: 0 1.2531328320802%;
 }
 .left,
 .alignleft {
@@ -177,7 +177,7 @@ body {
   background: #eee;
 }
 .mobile-nav-on #wrap {
-  left: 80px;
+  left: 280px;
 }
 .article-date,
 .article-category-link,
@@ -1238,7 +1238,7 @@ pre .javascript .function {
     position: absolute;
     top: 0;
     left: 0;
-    width: 80px;
+    width: 280px;
     height: 100%;
     background: #191919;
     border-right: 1px solid #fff;
