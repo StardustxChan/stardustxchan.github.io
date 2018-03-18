@@ -474,7 +474,7 @@ body {
   color: #777;
 }
 .article {
-  margin: 50px 0;
+  margin: 10px 0;
 }
 .article-inner {
   overflow: hidden;
@@ -504,7 +504,7 @@ body {
   margin: 0 12px 1em;
 }
 .article-header {
-  padding: 40px 40px 0;
+  padding: 20px 20px 0;
 }
 .article-title {
   text-decoration: none;
@@ -522,7 +522,7 @@ a.article-title:hover {
 }
 .article-entry {
   color: #555;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 .article-entry:before,
 .article-entry:after {
@@ -664,7 +664,7 @@ a.article-title:hover {
   line-height: 1.8em;
   border-top: 1px solid #ddd;
   padding-top: 1.8em;
-  margin: 0 40px 40px;
+  margin: 0 20px 20px;
 }
 .article-footer:before,
 .article-footer:after {
@@ -719,7 +719,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   #article-nav {
-    margin: 50px 0;
+    margin: 10px 0;
   }
   #article-nav:before {
     width: 8px;
@@ -743,7 +743,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
   display: block;
 }
@@ -914,16 +914,16 @@ a.article-title:hover {
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
-  padding: 40px;
+  padding: 20px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  margin: 50px 0;
+  margin: 10px 0;
 }
 #comments a {
   color: #258fb8;
 }
 .archives-wrap {
-  margin: 50px 0;
+  margin: 10px 0;
 }
 .archives:before,
 .archives:after {
@@ -990,7 +990,7 @@ a.article-title:hover {
   display: block;
 }
 #page-nav {
-  margin: 50px auto;
+  margin: 10px auto;
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
@@ -1063,8 +1063,8 @@ a.article-title:hover {
 .article-entry pre,
 .article-entry .highlight {
   background: #2d2d2d;
-  margin: 0 -40px;
-  padding: 15px 40px;
+  margin: 0 -20px;
+  padding: 15px 20px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
@@ -1132,12 +1132,12 @@ a.article-title:hover {
   background: #515151;
 }
 .article-entry .gist {
-  margin: 0 -40px;
+  margin: 0 -20px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
   background: #2d2d2d;
-  padding: 15px 40px 15px 0;
+  padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
   border: none;
@@ -1168,7 +1168,7 @@ a.article-title:hover {
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
   color: #258fb8;
