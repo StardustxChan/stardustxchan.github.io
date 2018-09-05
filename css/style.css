@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #eee;
-  font: 18px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
+  font: 18px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -359,7 +359,7 @@ body {
 .main-nav-link {
   float: left;
   color: #fff;
-  opacity: 0.6;
+  opacity: 0.9;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -384,7 +384,7 @@ body {
   cursor: pointer;
 }
 .main-nav-link {
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 479px) {
@@ -451,7 +451,7 @@ body {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
+  font: 13px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -600,7 +600,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 18px;
   margin: 1.8em 0;
-  font-family: "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
+  font-family: "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -805,7 +805,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
+  font: 14px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1164,7 +1164,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #2d2d2d;
   color: #999;
-  font: 0.85em "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
+  font: 0.85em "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
