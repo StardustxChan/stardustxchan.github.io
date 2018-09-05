@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #eee;
-  font: 18px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial, sans-serif;
+  font: 18px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -451,7 +451,7 @@ body {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial, sans-serif;
+  font: 13px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -600,7 +600,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 18px;
   margin: 1.8em 0;
-  font-family: "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial, sans-serif;
+  font-family: "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -805,7 +805,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial, sans-serif;
+  font: 14px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1164,7 +1164,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #2d2d2d;
   color: #999;
-  font: 0.85em "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial, sans-serif;
+  font: 0.85em "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
