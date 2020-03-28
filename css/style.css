@@ -123,12 +123,12 @@ body,
   height: 100%;
 }
 body {
-  background: #eee;
-  font: 18px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial;
+  background: #f9f9f9;
+  font: 20px "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 995px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 8.333333333333334px;
 }
@@ -143,8 +143,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.35449735449735%;
-  margin: 0 1.322751322751323%;
+  width: 97.61904761904762%;
+  margin: 0 1.19047619047619%;
 }
 .left,
 .alignleft {
@@ -174,7 +174,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: #eee;
+  background: #f9f9f9;
 }
 .mobile-nav-on #wrap {
   left: 280px;
@@ -195,22 +195,22 @@ body {
 .article-inner,
 .archive-article-inner {
   background: #fff;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
-  border: 1px solid #ddd;
-  border-radius: 3px;
+  -webkit-box-shadow: 8px 12px 30px #ccc;
+  box-shadow: 8px 12px 30px #ccc;
+  border: 0.5px solid #ddd;
+  border-radius: 40px;
 }
 .article-entry h1 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .article-entry h2 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 .article-entry h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 .article-entry h4 {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 .article-entry h5 {
   font-size: 1em;
@@ -253,7 +253,7 @@ body {
 .article-entry ol,
 .article-entry dl {
   margin: 0 20px;
-  line-height: 1.8em;
+  line-height: 1.7em;
 }
 .article-entry ul ul,
 .article-entry ol ul,
@@ -272,7 +272,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 730px;
+  height: 700px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -320,11 +320,11 @@ body {
 }
 #header-title {
   text-align: center;
-  height: 100px;
+  height: 120px;
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 #logo,
 #subtitle {
@@ -334,8 +334,8 @@ body {
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 120px;
+  line-height: 120px;
   letter-spacing: 2px;
 }
 #subtitle {
@@ -376,9 +376,9 @@ body {
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
-  font-size: 18px;
-  width: 18px;
-  height: 18px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -474,7 +474,7 @@ body {
   color: #777;
 }
 .article {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .article-inner {
   overflow: hidden;
@@ -504,7 +504,7 @@ body {
   margin: 0 12px 1em;
 }
 .article-header {
-  padding: 20px 20px 0;
+  padding: 80px 80px 0;
 }
 .article-title {
   text-decoration: none;
@@ -522,7 +522,7 @@ a.article-title:hover {
 }
 .article-entry {
   color: #555;
-  padding: 0 20px;
+  padding: 0 80px;
 }
 .article-entry:before,
 .article-entry:after {
@@ -534,8 +534,8 @@ a.article-title:hover {
 }
 .article-entry p,
 .article-entry table {
-  line-height: 1.8em;
-  margin: 1.8em 0;
+  line-height: 1.7em;
+  margin: 1.7em 0;
 }
 .article-entry h1,
 .article-entry h2,
@@ -564,8 +564,8 @@ a.article-title:hover {
 .article-entry ul,
 .article-entry ol,
 .article-entry dl {
-  margin-top: 1.8em;
-  margin-bottom: 1.8em;
+  margin-top: 1.7em;
+  margin-bottom: 1.7em;
 }
 .article-entry img,
 .article-entry video {
@@ -594,12 +594,12 @@ a.article-title:hover {
 .article-entry blockquote {
   font-family: "pingFangSC", "Helvetica Neue", "Helvetica", "Times New Roman", serif;
   font-size: 1.4em;
-  margin: 1.8em 20px;
+  margin: 1.7em 20px;
   text-align: center;
 }
 .article-entry blockquote footer {
-  font-size: 18px;
-  margin: 1.8em 0;
+  font-size: 20px;
+  margin: 1.7em 0;
   font-family: "pingFangSC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", Arial;
 }
 .article-entry blockquote footer cite:before {
@@ -648,7 +648,7 @@ a.article-title:hover {
   line-height: 1em;
   padding: 6px 15px;
   border-radius: 15px;
-  background: #eee;
+  background: #f9f9f9;
   color: #999;
   text-shadow: 0 1px #fff;
   text-decoration: none;
@@ -661,10 +661,10 @@ a.article-title:hover {
 }
 .article-footer {
   font-size: 0.85em;
-  line-height: 1.8em;
+  line-height: 1.7em;
   border-top: 1px solid #ddd;
-  padding-top: 1.8em;
-  margin: 0 20px 20px;
+  padding-top: 1.7em;
+  margin: 0 80px 80px;
 }
 .article-footer:before,
 .article-footer:after {
@@ -719,7 +719,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   #article-nav {
-    margin: 50px 0;
+    margin: 20px 0;
   }
   #article-nav:before {
     width: 8px;
@@ -743,7 +743,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
   display: block;
 }
@@ -782,7 +782,7 @@ a.article-title:hover {
 }
 .article-nav-title {
   font-size: 0.85em;
-  line-height: 1.8em;
+  line-height: 1.7em;
   margin-top: 0.5em;
 }
 .article-share-box {
@@ -815,7 +815,7 @@ a.article-title:hover {
   line-height: 36px;
 }
 .article-share-links {
-  background: #eee;
+  background: #f9f9f9;
 }
 .article-share-links:before,
 .article-share-links:after {
@@ -914,16 +914,16 @@ a.article-title:hover {
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
-  padding: 20px;
+  padding: 80px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 #comments a {
   color: #258fb8;
 }
 .archives-wrap {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .archives:before,
 .archives:after {
@@ -973,7 +973,7 @@ a.article-title:hover {
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
   transition: color 0.2s;
-  line-height: 1.8em;
+  line-height: 1.7em;
 }
 .archive-article-title:hover {
   color: #258fb8;
@@ -990,7 +990,7 @@ a.article-title:hover {
   display: block;
 }
 #page-nav {
-  margin: 50px auto;
+  margin: 20px auto;
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
@@ -1057,20 +1057,20 @@ a.article-title:hover {
   text-decoration: underline;
 }
 #footer-info {
-  line-height: 1.8em;
+  line-height: 1.7em;
   font-size: 0.85em;
 }
 .article-entry pre,
 .article-entry .highlight {
   background: #2d2d2d;
-  margin: 0 -20px;
-  padding: 15px 20px;
+  margin: 0 -80px;
+  padding: 15px 80px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 32.4px;
+  line-height: 34px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1082,7 +1082,7 @@ a.article-title:hover {
   font-family: "pingFangSC", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
-  background: #eee;
+  background: #f9f9f9;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
@@ -1126,18 +1126,18 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 32.4px;
+  height: 34px;
 }
 .article-entry .highlight .line.marked {
   background: #515151;
 }
 .article-entry .gist {
-  margin: 0 -20px;
+  margin: 0 -80px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
   background: #2d2d2d;
-  padding: 15px 20px 15px 0;
+  padding: 15px 80px 15px 0;
 }
 .article-entry .gist .gist-file {
   border: none;
@@ -1168,7 +1168,7 @@ a.article-title:hover {
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
-  margin-left: 20px;
+  margin-left: 80px;
 }
 .article-entry .gist .gist-file .gist-meta a {
   color: #258fb8;
