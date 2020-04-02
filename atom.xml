@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-28T11:27:52.736Z</updated>
+  <updated>2020-04-02T05:47:48.957Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,32 +21,145 @@
     <link href="http://yoursite.com/3018/06/10/AboutMe/"/>
     <id>http://yoursite.com/3018/06/10/AboutMe/</id>
     <published>3018-06-10T10:43:34.000Z</published>
-    <updated>2020-03-28T11:27:52.736Z</updated>
+    <updated>2020-04-02T05:47:48.957Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;在时间和注意力都匮乏的 ‘新媒体时代’ , 各类文章只需给出 ‘读者为什么要读这篇文章’ 的理由即可; &lt;/p&gt;
-&lt;p&gt;因为只有知道 ‘消费者为什么买你的产品’ 的文章才有关注点, 给用户带来价值的产品才有市场; &lt;/p&gt;
-&lt;p&gt;但是我不想这么做, 我只想写一些无目的性的垃圾作文, 比营销号更无价值, 可以说是 ‘网络垃圾’. &lt;/p&gt;
-&lt;img src=&quot;/3018/06/10/AboutMe/IMG_4473-squashed.jpg&quot; title=&quot;[感谢!]&quot;&gt;
+      &lt;p&gt;没能成为产品经理的我, 做的博客产品. &lt;/p&gt;
+&lt;p&gt;找工作, 找工作, 找工作, 还想找份工作, 有工能打那得有多幸福! &lt;/p&gt;
+&lt;p&gt;为什么在这个时代还用博客?&lt;br&gt;&lt;img src=&quot;/3018/06/10/AboutMe/IMG_4473-squashed.jpg&quot; title=&quot;[感谢!]&quot;&gt;&lt;br&gt;
     
     </summary>
     
     
     
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
   </entry>
   
   <entry>
-    <title>0. 一剑霜寒十四州, 博客副标题是什么意思?</title>
+    <title>企业需要求职者的什么价值?</title>
+    <link href="http://yoursite.com/2020/04/02/05-job-value-match/"/>
+    <id>http://yoursite.com/2020/04/02/05-job-value-match/</id>
+    <published>2020-04-02T05:47:29.000Z</published>
+    <updated>2020-04-02T06:17:13.039Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;不是学历歧视, 不是经验歧视. &lt;/p&gt;
+&lt;p&gt;问题是出在 ‘求职者本身的价值没能满足企业’&lt;/p&gt;
+&lt;label style=&quot;color:red&quot;&gt;不匹配, 不匹配, 不匹配, 失败, 失败, 失败.&lt;/label&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最终, 都会走上该走的道路</title>
+    <link href="http://yoursite.com/2020/04/01/04-road/"/>
+    <id>http://yoursite.com/2020/04/01/04-road/</id>
+    <published>2020-04-01T13:49:56.000Z</published>
+    <updated>2020-04-02T06:18:02.916Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;选出 ‘更好, 适合, 喜欢’ 的那一个目标. 往往选出的那一个, 是 &lt;label style=&quot;color:red&quot;&gt;‘没那么好, 说不上太适合, 不怎么讨厌’&lt;/label&gt; 的综合选项. &lt;/p&gt;
+&lt;p&gt;人习惯谈论 ‘应该选择哪一个目标’, 而不是 ‘想要选择哪一个目标’.&lt;br&gt;恰恰相反, ‘更好, 适合, 喜欢’, 这些词其实应该是用来谈论 ‘应该选择哪一条道路去达成我想要的目标’. &lt;/p&gt;
+&lt;p&gt;问问你自己的心, 你想怎样, 而不是你能怎样, 也不是别人和客观情况允许你之后, 你才能怎样. &lt;/p&gt;
+&lt;img src=&quot;/2020/04/01/04-road/misita.jpg&quot; title=&quot;[]&quot;&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="特级厨师的鸡汤" scheme="http://yoursite.com/tags/%E7%89%B9%E7%BA%A7%E5%8E%A8%E5%B8%88%E7%9A%84%E9%B8%A1%E6%B1%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>说说我的服装专业</title>
+    <link href="http://yoursite.com/2020/03/30/03my-lothing-major/"/>
+    <id>http://yoursite.com/2020/03/30/03my-lothing-major/</id>
+    <published>2020-03-30T13:59:22.000Z</published>
+    <updated>2020-04-01T14:39:03.007Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;依靠买买买的外物来决定心情的人, 是可悲的. —- 叔本华&lt;/p&gt;
+&lt;p&gt;真正的绅士，用智慧挑选衣服，仔细穿戴事毕，而出了门便要忘记身上穿的这一切。 —-佐藤谦一&lt;/p&gt;
+&lt;p&gt;如果在给我一次机会, 我一定不从月薪 2500 的工作辞职. &lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不自量力来答网易校招题</title>
+    <link href="http://yoursite.com/2020/03/30/02neteast-test/"/>
+    <id>http://yoursite.com/2020/03/30/02neteast-test/</id>
+    <published>2020-03-30T13:23:30.000Z</published>
+    <updated>2020-04-02T07:39:40.487Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;互联网广告和电视报纸广告的区别是什么&lt;/li&gt;
+&lt;li&gt;目前互联网行业的盈利模式有哪些, 谈谈对不同模式的理解?&lt;/li&gt;
+&lt;li&gt;你认为云计算到底解决了软件生产中的什么问题?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;开局一支笔, 答案全靠编, 希望我编的有趣. (笑脸)&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>两年后, 再来看两年前的蔡徐坤和偶像练习生</title>
+    <link href="http://yoursite.com/2020/03/28/01-cxk-2yearlater/"/>
+    <id>http://yoursite.com/2020/03/28/01-cxk-2yearlater/</id>
+    <published>2020-03-28T13:44:18.000Z</published>
+    <updated>2020-04-02T07:01:41.429Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果你不喜欢蔡徐坤, 那么, &lt;label style=&quot;color:red&quot;&gt;你能从你讨厌的东西里学到些什么?&lt;/label&gt; &lt;/p&gt;
+&lt;p&gt;本文谈论了流量, 偶像如何满足用户需求, &lt;/p&gt;
+&lt;p&gt;爱奇艺和资本想要什么?&lt;/p&gt;
+&lt;p&gt;还有, 我真的是蔡徐坤粉丝!!!&lt;br&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一剑霜寒十四州, 博客副标题是什么意思?</title>
     <link href="http://yoursite.com/2020/03/27/0%E4%B8%80%E5%89%91%E9%9C%9C%E5%AF%92%E5%8D%81%E5%9B%9B%E5%B7%9E/"/>
     <id>http://yoursite.com/2020/03/27/0%E4%B8%80%E5%89%91%E9%9C%9C%E5%AF%92%E5%8D%81%E5%9B%9B%E5%B7%9E/</id>
     <published>2020-03-27T13:35:30.000Z</published>
-    <updated>2020-03-28T13:12:38.666Z</updated>
+    <updated>2020-04-02T06:24:48.430Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;游戏角色李白的一句台词, 背后的真实历史故事.&lt;/p&gt;
-&lt;p&gt;玩游戏学知识, 玩到老学到老.&lt;br&gt;
+&lt;p&gt;&lt;label style=&quot;color:red&quot;&gt;玩游戏学知识&lt;/label&gt;, 玩到老学到老. &lt;/p&gt;
+&lt;p&gt;落魄诗人从政失败, 沦为王者峡谷打野英雄, 听完这个故事, 孩子们都哭了.&lt;/p&gt;
+&lt;img src=&quot;/2020/03/27/0一剑霜寒十四州/libaiasd-sqd.jpg&quot; title=&quot;[]&quot;&gt;
     
     </summary>
     
@@ -275,91 +388,6 @@
       &lt;p&gt;  本文于 2017 年 5月 3 日 作为公选课作业用.&lt;/p&gt;
 &lt;p&gt;摘要: 　　本论文通过资料查阅、具体实验的研究方法对市面上火热的 NVMe 固态硬盘作了初步了解. 通过选购和使用学习该类型固态硬盘的使用方法和特性, 通过 AS SSD 等专业软件对该类型固态硬盘做了简单的性能测试, 性能已经足够高. 以及探究了在不同的条件和具体应用场景之下, 在 NVMe 固态硬盘上安装系统的注意点和方法.最后得出了结论 “未来 NVMe 固态硬盘一定会成为主流, NVMe 固态硬盘的性能已完全满足一半消费者, 但是目前在传统 SATA 和 新型 NVMe 交替的时期, 消费者在选购和使用上仍有一定门槛. 未来硬盘形态必然根据需求不同而呈现百花齐放的姿态.” &lt;/p&gt;
  &lt;img src=&quot;/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/D90D33BE-935C-478F-8CE2-07897EE14FB3-squashed.jpg&quot; title=&quot;[]&quot;&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MacBook Pro 2017 15inch in Late2017, 洗白</title>
-    <link href="http://yoursite.com/2018/03/18/MacBook-Pro-15inch-in-2017-%E6%B4%97%E7%99%BD/"/>
-    <id>http://yoursite.com/2018/03/18/MacBook-Pro-15inch-in-2017-%E6%B4%97%E7%99%BD/</id>
-    <published>2018-03-17T18:17:08.000Z</published>
-    <updated>2018-03-20T16:10:57.292Z</updated>
-    
-    <summary type="html">
-    
-      &lt;img src=&quot;/2018/03/18/MacBook-Pro-15inch-in-2017-洗白/Artboardx1.jpg&quot; title=&quot;[]&quot;&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>黑苹果笔记本K640E in early 2017</title>
-    <link href="http://yoursite.com/2018/03/17/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%AC%94%E8%AE%B0%E6%9C%ACK640E-in-early-2018/"/>
-    <id>http://yoursite.com/2018/03/17/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%AC%94%E8%AE%B0%E6%9C%ACK640E-in-early-2018/</id>
-    <published>2018-03-17T14:49:10.000Z</published>
-    <updated>2018-03-18T09:56:00.424Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;购买理由&quot;&gt;&lt;a href=&quot;#购买理由&quot; class=&quot;headerlink&quot; title=&quot;购买理由&quot;&gt;&lt;/a&gt;购买理由&lt;/h2&gt;&lt;p&gt;受限于预算还是二手买了这个本, 型号是 K640E - i5 d1, W650 的老模具, 单热管.&lt;/p&gt;
-&lt;p&gt;原本考虑买 K610d4 赛扬的版本, 自行换成 i7, 后来偶然闲鱼面交到二手的 K640E, 低于新品的价格, 机械硬盘改成 128Gssd, CPU 也升级到 i5-4210m.&lt;/p&gt;
-&lt;p&gt;机缘巧合, 本总价不高. 二手价格 2000 不到一些, 整体感觉很新, 感觉还是不错的.&lt;/p&gt;
-&lt;img src=&quot;/2018/03/17/黑苹果笔记本K640E-in-early-2018/590eb7847c6e57361.jpg_e600.jpg&quot; title=&quot;[]&quot;&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>My Hackintosh in 2016</title>
-    <link href="http://yoursite.com/2018/03/17/My-Hackintosh-in-2016/"/>
-    <id>http://yoursite.com/2018/03/17/My-Hackintosh-in-2016/</id>
-    <published>2018-03-17T13:48:37.000Z</published>
-    <updated>2018-03-17T18:15:01.424Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;为什么写这篇文&quot;&gt;&lt;a href=&quot;#为什么写这篇文&quot; class=&quot;headerlink&quot; title=&quot;为什么写这篇文&quot;&gt;&lt;/a&gt;为什么写这篇文&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;配件选择有诸多取舍, 具体罗列每一种方案来相互比较, 是写这个文章的起因. &lt;/li&gt;
-&lt;li&gt;少说玄学, 集中在这几个问题上. “哪几样好, 这个用起来怎么样, 我该怎么选” .&lt;/li&gt;
-&lt;li&gt;因此我会很详细的描述每一样配件的选择和驱动情况. &lt;/li&gt;
-&lt;li&gt;不是教程帖，也没能力做教程。爬帖学习是最快最靠谱的&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;浅谈思路分享, 以及踩过的坑.&lt;/p&gt;
-&lt;img src=&quot;/2018/03/17/My-Hackintosh-in-2016/NLHbwslNSpO6wh82JoU+uQ_thumb_342.jpg&quot; title=&quot;[DP 2016]&quot;&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="黑苹果" scheme="http://yoursite.com/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>迁移自 Google Blog</title>
-    <link href="http://yoursite.com/2018/03/17/%E8%BF%81%E7%A7%BB%E8%87%AA%20Google%20Blog/"/>
-    <id>http://yoursite.com/2018/03/17/%E8%BF%81%E7%A7%BB%E8%87%AA%20Google%20Blog/</id>
-    <published>2018-03-17T13:41:47.000Z</published>
-    <updated>2018-03-17T14:06:30.648Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Bad artists copy, good artists steal.             
-        
-      
     
     </summary>
     
