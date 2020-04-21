@@ -38,6 +38,27 @@
   </entry>
   
   <entry>
+    <title>网易蜗牛读书产品报告</title>
+    <link href="http://yoursite.com/2020/04/21/07-netease-woniu-report/"/>
+    <id>http://yoursite.com/2020/04/21/07-netease-woniu-report/</id>
+    <published>2020-04-21T14:22:59.000Z</published>
+    <updated>2020-04-21T14:58:14.308Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;爱读书的我, 详细分析了网易蜗牛读书. &lt;/p&gt;
+&lt;p&gt;第一次给 ‘人人都是产品经理’ 投稿.&lt;/p&gt;
+&lt;img src=&quot;/2020/04/21/07-netease-woniu-report/woniulogo-sqd.jpg&quot; title=&quot;[]&quot;&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
     <title>企业需要求职者的什么价值?</title>
     <link href="http://yoursite.com/2020/04/02/05-job-value-match/"/>
     <id>http://yoursite.com/2020/04/02/05-job-value-match/</id>
@@ -369,25 +390,6 @@
     
       &lt;p&gt;‘在夜空中如龙一般飞舞’&lt;/p&gt;
 &lt;img src=&quot;/2018/03/18/2018rulong/C204D0BD-503B-458D-9971-1B532901C26D.jpeg&quot; title=&quot;[在夜空中如龙一般飞舞]&quot;&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>基于PCIe的NVMe 协议固态硬盘的选择和使用</title>
-    <link href="http://yoursite.com/2018/03/18/%E5%9F%BA%E4%BA%8EPCIe%E7%9A%84NVMe-%E5%8D%8F%E8%AE%AE%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98%E7%9A%84%E9%80%89%E6%8B%A9%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
-    <id>http://yoursite.com/2018/03/18/%E5%9F%BA%E4%BA%8EPCIe%E7%9A%84NVMe-%E5%8D%8F%E8%AE%AE%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98%E7%9A%84%E9%80%89%E6%8B%A9%E5%92%8C%E4%BD%BF%E7%94%A8/</id>
-    <published>2018-03-18T02:29:51.000Z</published>
-    <updated>2018-03-18T07:00:54.241Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  本文于 2017 年 5月 3 日 作为公选课作业用.&lt;/p&gt;
-&lt;p&gt;摘要: 　　本论文通过资料查阅、具体实验的研究方法对市面上火热的 NVMe 固态硬盘作了初步了解. 通过选购和使用学习该类型固态硬盘的使用方法和特性, 通过 AS SSD 等专业软件对该类型固态硬盘做了简单的性能测试, 性能已经足够高. 以及探究了在不同的条件和具体应用场景之下, 在 NVMe 固态硬盘上安装系统的注意点和方法.最后得出了结论 “未来 NVMe 固态硬盘一定会成为主流, NVMe 固态硬盘的性能已完全满足一半消费者, 但是目前在传统 SATA 和 新型 NVMe 交替的时期, 消费者在选购和使用上仍有一定门槛. 未来硬盘形态必然根据需求不同而呈现百花齐放的姿态.” &lt;/p&gt;
- &lt;img src=&quot;/2018/03/18/基于PCIe的NVMe-协议固态硬盘的选择和使用/D90D33BE-935C-478F-8CE2-07897EE14FB3-squashed.jpg&quot; title=&quot;[]&quot;&gt;
     
     </summary>
     
