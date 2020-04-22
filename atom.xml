@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-02T05:47:48.957Z</updated>
+  <updated>2020-04-22T14:15:30.918Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="http://yoursite.com/3018/06/10/AboutMe/"/>
     <id>http://yoursite.com/3018/06/10/AboutMe/</id>
     <published>3018-06-10T10:43:34.000Z</published>
-    <updated>2020-04-02T05:47:48.957Z</updated>
+    <updated>2020-04-22T14:15:30.918Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;没能成为产品经理的我, 做的博客产品. &lt;/p&gt;
 &lt;p&gt;找工作, 找工作, 找工作, 还想找份工作, 有工能打那得有多幸福! &lt;/p&gt;
-&lt;p&gt;为什么在这个时代还用博客?&lt;br&gt;&lt;img src=&quot;/3018/06/10/AboutMe/IMG_4473-squashed.jpg&quot; title=&quot;[感谢!]&quot;&gt;&lt;br&gt;
+&lt;p&gt;为什么在这个时代还用博客?&lt;br&gt;&lt;img src=&quot;/3018/06/10/AboutMe/sxs1.jpg&quot; title=&quot;[感谢!]&quot;&gt;&lt;br&gt;
     
     </summary>
     
@@ -63,13 +63,15 @@
     <link href="http://yoursite.com/2020/04/02/05-job-value-match/"/>
     <id>http://yoursite.com/2020/04/02/05-job-value-match/</id>
     <published>2020-04-02T05:47:29.000Z</published>
-    <updated>2020-04-13T16:12:21.689Z</updated>
+    <updated>2020-04-22T12:49:35.098Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;不是学历歧视, 不是经验歧视. &lt;/p&gt;
 &lt;p&gt;问题是出在 ‘求职者本身的价值没能满足企业’&lt;/p&gt;
 &lt;label style=&quot;color:red&quot;&gt;不匹配, 不匹配, 不匹配, 失败, 失败, 失败.&lt;/label&gt;
+
+&lt;p&gt;「失联招聘、Boss直拒、前程堪忧、58不成、拉钩上吊一百年不匹配」&lt;/p&gt;
     
     </summary>
     
@@ -84,13 +86,14 @@
     <link href="http://yoursite.com/2020/04/01/04-road/"/>
     <id>http://yoursite.com/2020/04/01/04-road/</id>
     <published>2020-04-01T13:49:56.000Z</published>
-    <updated>2020-04-04T14:38:46.878Z</updated>
+    <updated>2020-04-22T13:47:48.165Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;选出 ‘更好, 适合, 喜欢’ 的那一个目标. 往往选出的那一个, 是 &lt;label style=&quot;color:red&quot;&gt;‘没那么好, 说不上太适合, 不怎么讨厌’&lt;/label&gt; 的综合选项. &lt;/p&gt;
+      &lt;p&gt;选出 ‘更好, 适合, 喜欢’ 的那一个目标. 往往选出的那一个, 是 ‘没那么好, 说不上太适合, 不怎么讨厌’ 的综合选项. &lt;/p&gt;
 &lt;p&gt;人习惯谈论 ‘应该选择哪一个目标’, 而不是 ‘想要选择哪一个目标’.&lt;br&gt;恰恰相反, ‘更好, 适合, 喜欢’, 这些词其实应该是用来谈论 ‘应该选择哪一条道路去达成我想要的目标’. &lt;/p&gt;
-&lt;p&gt;问问你自己的心, 你想怎样, 而不是你能怎样, 也不是别人和客观情况允许你之后, 你才能怎样. &lt;/p&gt;
+&lt;label style=&quot;color:red&quot;&gt;问问你自己的心, 你想怎样, 而不是你能怎样, 也不是别人和客观情况允许你之后, 你才能怎样.&lt;/label&gt;
+
 &lt;img src=&quot;/2020/04/01/04-road/misita.jpg&quot; title=&quot;[]&quot;&gt;
     
     </summary>
@@ -106,12 +109,12 @@
     <link href="http://yoursite.com/2020/03/30/03my-lothing-major/"/>
     <id>http://yoursite.com/2020/03/30/03my-lothing-major/</id>
     <published>2020-03-30T13:59:22.000Z</published>
-    <updated>2020-04-01T14:39:03.007Z</updated>
+    <updated>2020-04-22T15:40:40.787Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;依靠买买买的外物来决定心情的人, 是可悲的. —- 叔本华&lt;/p&gt;
-&lt;p&gt;真正的绅士，用智慧挑选衣服，仔细穿戴事毕，而出了门便要忘记身上穿的这一切。 —-佐藤谦一&lt;/p&gt;
+&lt;p&gt;真正的绅士，用智慧挑选衣服，仔细穿戴事毕，而出了门便要&lt;strong&gt;忘记身上穿的这一切。&lt;/strong&gt; —-佐藤谦一&lt;/p&gt;
 &lt;p&gt;如果在给我一次机会, 我一定不从月薪 2500 的工作辞职. &lt;/p&gt;
     
     </summary>
@@ -151,7 +154,7 @@
     <link href="http://yoursite.com/2020/03/28/01-cxk-2yearlater/"/>
     <id>http://yoursite.com/2020/03/28/01-cxk-2yearlater/</id>
     <published>2020-03-28T13:44:18.000Z</published>
-    <updated>2020-04-02T07:01:41.429Z</updated>
+    <updated>2020-04-22T14:06:35.303Z</updated>
     
     <summary type="html">
     
