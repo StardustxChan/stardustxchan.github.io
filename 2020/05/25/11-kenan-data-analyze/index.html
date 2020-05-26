@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+
+  
+  <title>数据分析：80万条名侦探柯南弹幕内容分析报告 | 将进酒</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="第一次做数据分析案例, 拿到的数据是 80 万条柯南弹幕.   统计弹幕提到的人名词频时, 要把昵称统计进去, 粉丝都是叫昵称而非全名.  弹幕最多的地方就是看点, 当然, 不同类型的看点, 聚集的弹幕特征也不同; 相反弹幕最少的地方最孤独.  通过用户发送弹幕的起始-结束时间, 算出用户平均每天看几集, 不排除会有人跳着看">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据分析：80万条名侦探柯南弹幕内容分析报告">
+<meta property="og:url" content="http://yoursite.com/2020/05/25/11-kenan-data-analyze/index.html">
+<meta property="og:site_name" content="将进酒">
+<meta property="og:description" content="第一次做数据分析案例, 拿到的数据是 80 万条柯南弹幕.   统计弹幕提到的人名词频时, 要把昵称统计进去, 粉丝都是叫昵称而非全名.  弹幕最多的地方就是看点, 当然, 不同类型的看点, 聚集的弹幕特征也不同; 相反弹幕最少的地方最孤独.  通过用户发送弹幕的起始-结束时间, 算出用户平均每天看几集, 不排除会有人跳着看">
+<meta property="og:image" content="http://yoursite.com/2020/05/25/11-kenan-data-analyze/shujufenxi3-sqd.jpg">
+<meta property="og:image" content="http://yoursite.com/2020/05/25/11-kenan-data-analyze/metadata-sqd.jpg">
+<meta property="og:image" content="http://yoursite.com/2020/05/25/11-kenan-data-analyze/kenanname-sqd.jpg">
+<meta property="og:image" content="http://yoursite.com/2020/05/25/11-kenan-data-analyze/kenantanhao-sqd.jpg">
+<meta property="og:image" content="http://yoursite.com/2020/05/25/11-kenan-data-analyze/kenantotal-sqd.jpg">
+<meta property="og:updated_time" content="2020-05-26T05:01:01.111Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="数据分析：80万条名侦探柯南弹幕内容分析报告">
+<meta name="twitter:description" content="第一次做数据分析案例, 拿到的数据是 80 万条柯南弹幕.   统计弹幕提到的人名词频时, 要把昵称统计进去, 粉丝都是叫昵称而非全名.  弹幕最多的地方就是看点, 当然, 不同类型的看点, 聚集的弹幕特征也不同; 相反弹幕最少的地方最孤独.  通过用户发送弹幕的起始-结束时间, 算出用户平均每天看几集, 不排除会有人跳着看">
+<meta name="twitter:image" content="http://yoursite.com/2020/05/25/11-kenan-data-analyze/shujufenxi3-sqd.jpg">
+<meta name="twitter:creator" content="@stardust_s2@live.com">
+  
+    <link rel="alternate" href="/atom.xml" title="将进酒" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/css/images/favicon.png">
+  
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">将进酒</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">一剑霜寒十四州</a>
+        </h2>
+      
+      <span id="busuanzi_container_site_uv" style="color:#FFF">
+           <span id="busuanzi_value_site_uv"></span> 
+        </span>
+    </div>
+    <div id="header-inner" class="inner">
+      
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">所有文章</a>
+        
+          <a class="main-nav-link" href="/tags/产品/">产品文章</a>
+        
+          <a class="main-nav-link" href="/tags/特级厨师的鸡汤/">深层思考</a>
+        
+          <a class="main-nav-link" href="https://www.instagram.com/stardust_s2/">Instagram</a>
+        
+          <a class="main-nav-link" href="https://space.bilibili.com/4612745/#/">哔哩哔哩</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-11-kenan-data-analyze" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/05/25/11-kenan-data-analyze/" class="article-date">
+  <time datetime="2020-05-25T14:57:45.000Z" itemprop="datePublished"></time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      数据分析：80万条名侦探柯南弹幕内容分析报告
+    </h1>
+  
+
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+
+      
+        <p>第一次做数据分析案例, 拿到的数据是 80 万条柯南弹幕. </p>
+<ul>
+<li>统计弹幕提到的人名词频时, 要把昵称统计进去, 粉丝都是叫昵称而非全名. </li>
+<li>弹幕最多的地方就是看点, 当然, 不同类型的看点, 聚集的弹幕特征也不同; 相反弹幕最少的地方最孤独. </li>
+<li>通过用户发送弹幕的起始-结束时间, 算出用户平均每天看几集, 不排除会有人跳着看</li>
+</ul>
+<img src="/2020/05/25/11-kenan-data-analyze/shujufenxi3-sqd.jpg" title="[]">
+<a id="more"></a>
+<p>正文</p>
+<h1 id="思路探索"><a href="#思路探索" class="headerlink" title="思路探索"></a>思路探索</h1><p>受产品思维影响, 首先确立每一小块分析的目的, 其次找出实现方法, 最后才是边实践边迭代改进. </p>
+<p>例如, 套用词云分析法, 直接对所有弹幕内容做词云分析, 得出 ‘柯南’ 被提到 xx 次, ‘小兰’ 被提到 xx 次, 只是把数据转换了一种形式, 没有结论, 也不知道分析的对错, 没有改进空间</p>
+<p>因此, 无论什么分析, 切忌没有结论, 其次切忌方法套用, 最后切忌无法改进验证没有反馈. </p>
+<p>数据的格式长这样</p>
+<img src="/2020/05/25/11-kenan-data-analyze/metadata-sqd.jpg" title="[]">
+<h1 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h1><h2 id="人名词频"><a href="#人名词频" class="headerlink" title="人名词频"></a>人名词频</h2><p>第一轮无停用词的全弹幕的词频分析跑完后, 我发现了几个我不知道含义的高频词, ‘黑鸡’, ‘透子<br>, ‘斗子’, 查了一下发现是人物的昵称, 惊觉粉丝不会叫人物全名, 所以如果拿角色全名做词频分析, 来得出人物人气值的结论, 那么得到的结果根本就不准. </p>
+<img src="/2020/05/25/11-kenan-data-analyze/kenanname-sqd.jpg" title="[]">
+<p>‘哀哀哀哀哀哀哀哀哀哀’ 这种重复词弹幕, 一条就能影响全局词频. 所以人名词频统计时, 我决定只统计条数而非词频. 我用 Python 结巴分词的技术手段找思路, 实现方法就是简单的用 Excel 的筛选搜索包含关键词的条数. </p>
+<p>筛选出含有 ‘某人名’ 的弹幕, 对这些弹幕再做词频分析, 可以得到哪些人会被一起提到, 是剧情需要, 还是 CP 关系? 由此可以做出粉丝眼中的 ‘全人物之间的关系强度图’, 双向权重, 因为懒所以暂时没做. </p>
+<h2 id="情感词频"><a href="#情感词频" class="headerlink" title="情感词频"></a>情感词频</h2><p>词频分析跑完的 TOP 中, 除去无意义的 ‘,’, 结果是 ‘哈, ! , ?’ 排行前三. 因此, 我决定把这些情绪词分拆出来, </p>
+<ul>
+<li>什么东西这么好笑? → 分析带哈弹幕的词频. </li>
+<li>哪一集最好笑? → 分析哈最多的是哪一集. </li>
+</ul>
+<img src="/2020/05/25/11-kenan-data-analyze/kenantanhao-sqd.jpg" title="[]">
+<p>由此找到了 ! 最多的两集是兰和新一童年第一次相识. </p>
+<h2 id="剧情词频"><a href="#剧情词频" class="headerlink" title="剧情词频"></a>剧情词频</h2><p>观察源数据, 发现用户很喜欢猜犯人, 来参与剧情当中. ‘三选一’, ‘猜对’, 因此我分离了剧情相关的词, 单独做词频分析. </p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>总的来说, 我细分了赛道, 让结论更具体确切了, 而不是全部糅合在一起. </p>
+<h2 id="弹幕数量分析"><a href="#弹幕数量分析" class="headerlink" title="弹幕数量分析"></a>弹幕数量分析</h2><p>用 Excel 的 COUNTIFS 算出每一集的弹幕数量, 同表运算太慢了, 80w x 80w 的复杂度, 方法太笨了, 我让电脑算着然后出门了. 事后觉得在另一个表中用引用来 Count 会更快, 1000集 x 80w 的复杂度. </p>
+<p>的确, 这样能找出哪一集最有看点, 但是, 能不能找出哪几分钟最热闹, 弹幕最多呢? </p>
+<ol>
+<li>先设定颗粒度为 3 分钟, 把一集 24 分钟分为 8 段, 超过 24 分钟的分散到后面. </li>
+<li>以 180s 为刻度, 把时间转换为 0-1 的小数, 加上集数, 得到每个弹幕的最终时间坐标(如第 15 集的 9-12 分钟就是 15.4), 统计同坐标的弹幕数</li>
+<li>x=时间坐标, y=同时间坐标的弹幕数, 排序即可</li>
+</ol>
+<p>得出最热闹的是灰原哀初登场的 136 集, 还有一系列名场面. </p>
+<h2 id="用户分析"><a href="#用户分析" class="headerlink" title="用户分析"></a>用户分析</h2><img src="/2020/05/25/11-kenan-data-analyze/kenantotal-sqd.jpg" title="[]">
+<p>共有 11 万用户发过弹幕, 但是超过 10 条的只有 1.6 万人. 也许是本就该长尾效应, 也许是这些人开始看. </p>
+<p>总之不管怎样, 能够统计出 TOP 50 的活跃用户平均每人一共发 400 条左右的弹幕. </p>
+<p>那些只发了一条弹幕的用户就没有分析价值了吗?<br>不是的, 可以对其词频分析, 找出用户发第一条弹幕时, 最在意什么. </p>
+<p>‘用户最后发弹幕时间’ - ‘用户第一条弹幕时间’, 相减可以得出用户看了几天柯南.<br>‘某用户的最大集数’ - ‘最小集数’, 可得出用户看了几集(不跳集)<br>相除可得出活跃用户平均每天看38集.  </p>
+<h2 id="最近的想法"><a href="#最近的想法" class="headerlink" title="最近的想法"></a>最近的想法</h2><p>人一生有很多机会, 但是每个人都只会盯着 ‘我认为那是机会’ 的一部分机会.</p>
+<p>执着于跳一跳就能 ‘够的到’ 的机会, 痴迷于眼前的局部最优解了, 5 年后 10 年后要走向哪里呢?</p>
+<p>数据分析不也和人生计划一样吗? </p>
+<ul>
+<li>分析出具体的结论 = 推导出具体的下一步行动</li>
+<li>专注业务, 不套用方法 = 不去套用别人的人生路径, 独立思考出自己的计划</li>
+<li>要有反馈验证 = 逐步改进计划 </li>
+</ul>
+<p>临渊羡鱼, 不如退而结网。<br>比喻空怀壮志，不如实实在在地付诸于行动</p>
+<p>我嘛, 现在只需要一个错误的, 有反馈的, 立刻能执行的计划. </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/05/25/11-kenan-data-analyze/" data-id="ckann0uoh000i3vgjue2wdvhx" class="article-share-link">Love Yourself</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/3018/06/10/AboutMe/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          介绍一下本博客, 这里有什么
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/05/25/10-sancai-question/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">面试题：短视频运营</div>
+    </a>
+  
+</nav>
+
+  
+  
+</article>
+
+
+
+
+
+
+
+</section>
+        
+      </div>
+      <footer id="footer">
+
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 Sx    
+        ,    powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">所有文章</a>
+  
+    <a href="/tags/产品/" class="mobile-nav-link">产品文章</a>
+  
+    <a href="/tags/特级厨师的鸡汤/" class="mobile-nav-link">深层思考</a>
+  
+    <a href="https://www.instagram.com/stardust_s2/" class="mobile-nav-link">Instagram</a>
+  
+    <a href="https://space.bilibili.com/4612745/#/" class="mobile-nav-link">哔哩哔哩</a>
+  
+</nav>
+    
+
+<script src="http://apps.bdimg.com/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof jQuery == 'undefined') {
+document.write(unescape("%3Cscript src='/js/jquery-2.0.3.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+// ]]>
+</script>
+
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"scale":0.1,"model":{"scale":0.7,"jsonPath":"/live2dw/assets/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":180,"hOffset":-80,"vOffset":-20,"superSample":2,"scale":7},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.9,"opacityOnHover":1}});</script></body>
+</html>
