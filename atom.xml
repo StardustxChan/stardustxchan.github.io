@@ -39,15 +39,16 @@
     <link href="http://yoursite.com/2020/05/25/11-kenan-data-analyze/"/>
     <id>http://yoursite.com/2020/05/25/11-kenan-data-analyze/</id>
     <published>2020-05-25T14:57:45.000Z</published>
-    <updated>2020-05-26T05:01:01.111Z</updated>
+    <updated>2020-06-03T07:09:05.097Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;第一次做数据分析案例, 拿到的数据是 80 万条柯南弹幕. &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;统计弹幕提到的人名词频时, 要把昵称统计进去, 粉丝都是叫昵称而非全名. &lt;/li&gt;
-&lt;li&gt;弹幕最多的地方就是看点, 当然, 不同类型的看点, 聚集的弹幕特征也不同; 相反弹幕最少的地方最孤独. &lt;/li&gt;
+&lt;li&gt;通过人物词频分析谁的人气最高, 亮点是合并了昵称, 粉丝叫喜欢的&lt;label style=&quot;color:red&quot;&gt;人物叫的都是绰号&lt;/label&gt;, 单纯统计人名等于白统计.  &lt;/li&gt;
+&lt;li&gt;弹幕最多的地方就是&lt;label style=&quot;color:red&quot;&gt;看点&lt;/label&gt;, 最热闹的是灰原哀初登场的 136 集的前 6 分钟, 人气最高的不一定是主角&lt;/li&gt;
 &lt;li&gt;通过用户发送弹幕的起始-结束时间, 算出用户平均每天看几集, 不排除会有人跳着看&lt;/li&gt;
+&lt;li&gt;低频词分析, 用户发的第一条/唯一一条弹幕说的是什么?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img src=&quot;/2020/05/25/11-kenan-data-analyze/shujufenxi3-sqd.jpg&quot; title=&quot;[]&quot;&gt;
     
@@ -62,7 +63,7 @@
     <link href="http://yoursite.com/2020/05/25/10-sancai-question/"/>
     <id>http://yoursite.com/2020/05/25/10-sancai-question/</id>
     <published>2020-05-25T14:55:57.000Z</published>
-    <updated>2020-05-26T08:06:30.203Z</updated>
+    <updated>2020-05-27T11:55:37.639Z</updated>
     
     <summary type="html">
     
@@ -254,12 +255,12 @@
     <link href="http://yoursite.com/2020/03/27/0%E4%B8%80%E5%89%91%E9%9C%9C%E5%AF%92%E5%8D%81%E5%9B%9B%E5%B7%9E/"/>
     <id>http://yoursite.com/2020/03/27/0%E4%B8%80%E5%89%91%E9%9C%9C%E5%AF%92%E5%8D%81%E5%9B%9B%E5%B7%9E/</id>
     <published>2020-03-27T13:35:30.000Z</published>
-    <updated>2020-04-02T06:24:48.430Z</updated>
+    <updated>2020-06-03T06:33:10.604Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;游戏角色李白的一句台词, 背后的真实历史故事.&lt;/p&gt;
-&lt;p&gt;&lt;label style=&quot;color:red&quot;&gt;玩游戏学知识&lt;/label&gt;, 玩到老学到老. &lt;/p&gt;
+      &lt;p&gt;游戏角色李白的一句台词, 玩游戏时被我记了下来, 查了一下, 想了一下, 写了一下.&lt;/p&gt;
+&lt;p&gt;&lt;label style=&quot;color:red&quot;&gt;玩游戏学知识&lt;/label&gt;. &lt;/p&gt;
 &lt;p&gt;落魄诗人从政失败, 沦为王者峡谷打野英雄, 听完这个故事, 孩子们都哭了.&lt;/p&gt;
 &lt;img src=&quot;/2020/03/27/0一剑霜寒十四州/libaiasd-sqd.jpg&quot; title=&quot;[]&quot;&gt;
     
