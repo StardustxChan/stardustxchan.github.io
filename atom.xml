@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-03T07:23:45.253Z</updated>
+  <updated>2020-06-06T04:58:48.525Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/3018/06/10/AboutMe/"/>
     <id>http://yoursite.com/3018/06/10/AboutMe/</id>
     <published>3018-06-10T10:43:34.000Z</published>
-    <updated>2020-06-03T07:23:45.253Z</updated>
+    <updated>2020-06-06T04:58:48.525Z</updated>
     
     <summary type="html">
     
@@ -39,11 +39,11 @@
     <link href="http://yoursite.com/2020/05/25/11-kenan-data-analyze/"/>
     <id>http://yoursite.com/2020/05/25/11-kenan-data-analyze/</id>
     <published>2020-05-25T14:57:45.000Z</published>
-    <updated>2020-06-03T07:09:05.097Z</updated>
+    <updated>2020-06-06T05:13:22.470Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;第一次做数据分析案例, 拿到的数据是 80 万条柯南弹幕. &lt;/p&gt;
+      &lt;p&gt;第一次做数据分析案例, 付出很多脑力所以获得了本期竞赛 MVP , 拿到的数据是 80 万条柯南弹幕. &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;通过人物词频分析谁的人气最高, 亮点是合并了昵称, 粉丝叫喜欢的&lt;label style=&quot;color:red&quot;&gt;人物叫的都是绰号&lt;/label&gt;, 单纯统计人名等于白统计.  &lt;/li&gt;
 &lt;li&gt;弹幕最多的地方就是&lt;label style=&quot;color:red&quot;&gt;看点&lt;/label&gt;, 最热闹的是灰原哀初登场的 136 集的前 6 分钟, 人气最高的不一定是主角&lt;/li&gt;
@@ -63,7 +63,7 @@
     <link href="http://yoursite.com/2020/05/25/10-sancai-question/"/>
     <id>http://yoursite.com/2020/05/25/10-sancai-question/</id>
     <published>2020-05-25T14:55:57.000Z</published>
-    <updated>2020-06-03T12:01:36.453Z</updated>
+    <updated>2020-06-03T12:03:48.908Z</updated>
     
     <summary type="html">
     
